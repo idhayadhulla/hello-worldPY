@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+.venv/
+
+# Ignore local development settings
+.env
+
+# Ignore built distribution files
+build/
+dist/
+
+# Ignore logs and temporary files
+logs/
+.log
+.log.*
+
+# Ignore system or text editor generated files
+.DS_Store
+.vscode/
+.idea/
